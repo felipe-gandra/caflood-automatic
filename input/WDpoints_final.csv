@@ -1,0 +1,6 @@
+Time Plot Name  	, WD reference points
+Physical Variable	, WD
+Points Name 		, DI, DII, DIII, PI, PII, SI, SII, SIII, SIIII
+Points X Coo		, 544101.10, 544099, 544100, 577994.2,  577995, 628903, 628896.24, 629008, 629011 
+Points Y Coo		, 6308710.65, 6308716.5, 6308717.3, 6295505.1, 6295507, 6310206, 6310207.55, 6311114, 6311143 
+Period (seconds)	, 3600

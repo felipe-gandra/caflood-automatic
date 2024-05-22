@@ -1,0 +1,35 @@
+Simulation Name			, rain2016_pixel100
+Short Name (for outputs)	, rain2016_pixel100
+Version	   			, 1,2,0
+Model Type			, WCA2Dv2
+Time Start (seconds)		, 0
+Time End   (seconds)		, 259200
+Max DT (seconds)		, 60
+Min DT (seconds)		, 0.01
+Update DT (seconds)		, 60
+Alpha (Fraction DT 0.0-1.0)	, 0.1
+Max Iterations			, 1000000
+Roughness Global		, 0.030
+Ignore WD (meter)		, 0.0001
+Tolerance (meter)		, 0.0001
+Slope Tolerance (%)		, 0.422
+Boundary Ele (Hi/Closed-Lo/Open), -9000
+Elevation ASCII 		, asc_strm_RioYi_100m.asc 
+Rain Event CSV			, Event_2016.csv
+Water Level Event CSV		, 
+Inflow Event CSV		,
+Time Plot CSV			, WDpoints_final.csv
+Raster Grid CSV			, WDraster.csv, VELraster.csv
+Output Console			, true
+Output Period (s)		, 300
+Output Computation Time		, true
+Check Volumes	   		, true
+Remove Proc Data (No Pre-Proc)	, true
+Remove Pre-Proc Data		, true
+Raster VEL Vector Field		, true
+Raster WD Tolerance (meter)	, 0.1
+Update Peak Every DT		, false
+Expand Domain                   , false
+Ignore Upstream			, true
+Upstream Reduction (meter)	, 0.5
+
